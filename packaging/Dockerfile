@@ -7,7 +7,9 @@
 FROM python:3.12-slim AS builder
 WORKDIR /build
 COPY packaging/requirements.txt .
-RUN pip install --no-cache-dir --target=/deps -r requirements.txt
+RUN pip install --no-cache-dir --target=/deps -r requirements.txt \
+    && find /deps -type d \( -name tests -o -name __pycache__ \) -prune -exec rm -rf {} + \
+    && find /deps -name '*.pyc' -delete
 
 # --- Stage 2 : runtime — uniquement ce qui sert à répondre aux requêtes ---------------
 FROM python:3.12-slim AS runtime
