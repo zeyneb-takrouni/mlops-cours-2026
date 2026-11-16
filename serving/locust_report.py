@@ -1,6 +1,7 @@
 """Résume les CSV de Locust en tableau Markdown.
 Usage : uv run python serving/locust_report.py ["reports/m5/compare_*"]
 """
+
 import re
 import sys
 from pathlib import Path
