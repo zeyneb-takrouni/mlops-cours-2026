@@ -1,4 +1,4 @@
-"""API de scoring : sert le modèle ONNX exporté à l'étape 1.
+"""API de scoring : sert le modèle ONNX exporté à l'étape 1 (déployée par Argo CD, Lab 6).
 
 Le schéma d'entrée est construit à partir de dataset.yaml : aucune colonne n'est écrite
 ici, changer de dataset ne demande aucune modification de ce fichier.
