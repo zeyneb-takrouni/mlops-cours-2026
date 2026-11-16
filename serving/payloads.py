@@ -7,6 +7,7 @@ Deux protocoles d'inférence :
   ONNX du Lab 4.
 Aucune colonne n'est écrite ici : changer de dataset ne demande aucune modification.
 """
+
 import sys
 from pathlib import Path
 

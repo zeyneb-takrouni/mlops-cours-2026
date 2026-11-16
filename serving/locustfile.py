@@ -1,4 +1,5 @@
 """Test de charge de l'InferenceService (Lab 5) : rejoue de vraies lignes de test.csv."""
+
 import os
 import random
 
