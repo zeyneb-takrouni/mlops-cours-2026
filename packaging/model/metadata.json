@@ -2,8 +2,8 @@
   "dataset": "german-credit",
   "model_name": "scoring-model",
   "model_alias": "champion",
-  "model_version": "13",
-  "run_id": "0bef34ec884b45d698623c7301dd4bca",
+  "model_version": "14",
+  "run_id": "34b62d8345864238aa13c8f37afe8373",
   "target": "credit_risk",
   "positive_class": "bad",
   "threshold": 0.3182,
@@ -35,6 +35,6 @@
     ]
   },
   "onnx_opset": 17,
-  "onnx_sha256": "4b7517525ab6398be391bb58404f8584bdb49502cace1ca070d43b99ddaa222e",
-  "exported_at": "2026-11-17T09:20:30+00:00"
+  "onnx_sha256": "3f91fab8cb91e85dd3cee5bd759cb60e230973323b41548eb9c58dd84534e908",
+  "exported_at": "2026-11-17T09:48:22+00:00"
 }
